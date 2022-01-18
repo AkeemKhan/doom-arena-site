@@ -23,9 +23,11 @@ const LargeCarousel = ({carouselData}) => {
     );
 
     return (
-        <Carousel>
-            {listItems}
-        </Carousel>
+        <div>
+            <Carousel className="carousel-margin">
+                {listItems}
+            </Carousel>
+        </div>
     )
 }
 

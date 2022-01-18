@@ -34,37 +34,37 @@ import { useState } from "react";
 function App() {
   const [carouselImages1, setcarouselImages1] = useState([
     {
-        "h3":"First slide label", 
-        "p":"Nulla vitae elit libero, a pharetra augue mollis interdum.",
-        "link": "https://www.pcgamesn.com/wp-content/uploads/2020/08/doom-eternal-ancient-gods-part-2-dlc-release-date-2.jpg"
+        "h3":"Fight within arenas", 
+        "p":"Face hordes of familiar faces",
+        "link": "/images/arenagate.png"
     },
     {
-        "h3":"Second slide label", 
-        "p":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "link": "https://www.gry-online.pl/i/h/1/598920703.jpg"
+        "h3":"Explore secrets within the stages", 
+        "p":"Hidden paths, subtle entrances",
+        "link": "/images/abandoneduacoutposts.png"
     },
     {
-        "h3":"Second slide label", 
-        "p":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "link": "https://cdn.mos.cms.futurecdn.net/iPKatp6VvEFwBwMeYXSwhR.jpg"
+        "h3":"Every run, different", 
+        "p":"Randomly spawning enemy hordes, you never know when and where they will appear.",
+        "link": "/images/houseofpain.png"
     },
   ]);
 
   const [carouselImages2, setcarouselImages2] = useState([
     {
-        "h3":"First slide label", 
-        "p":"Nulla vitae elit libero, a pharetra augue mollis interdum.",
-        "link": "https://cdn.vox-cdn.com/thumbor/NVxK5PkR95tMXoOZRqKwSwMq_XA=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19197653/doom_2016_key_art.jpeg"
+        "h3":"Complete Objectives", 
+        "p":"Objectives reduces the number of waves",
+        "link": "/images/objective.png"
     },
     {
-        "h3":"Second slide label", 
-        "p":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "link": "https://i2.wp.com/manualdosgames.com/wp-content/uploads/2020/10/DOOM_Eternal_The_Ancient_Gods.jpg"
+        "h3":"Hunt down the key spawn locations", 
+        "p":"You can only escape once you survive long enough",
+        "link": "/images/keyspawn.png"
     },
     {
-        "h3":"Second slide label", 
-        "p":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "link": "https://images.ctfassets.net/rporu91m20dc/4ZuzbjLWLRSbB9jBNmn2Gp/db8a11f9b8dcf330256726546c55869d/Doom-Eternal_Slayer_Army_Wallpaper_1920x1080-01.jpg"
+        "h3":"Face challenge rooms", 
+        "p":"They are there to test your mettle, with a bountiful reward.",
+        "link": "/images/arenas.png"
     },
 ]);
 
@@ -74,12 +74,14 @@ function App() {
       <Header/>
       <div className="paddingTop">
       </div>
-        <div>
-            <h3 className="home-red-text">Are you skilled enough to face the dreaded arenas?...</h3>
+        <h3 className="home-red-text">Are you skilled enough to face the dreaded arenas?...</h3>
+        <div className="carousel-div">
             <LargeCarousel className="large-carousel" carouselData={carouselImages1}/>
         </div>
         <p className="text-white home-text pageTxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <LargeCarousel carouselData={carouselImages2}/>
+        <div className="carousel-div">
+            <LargeCarousel className="large-carousel" carouselData={carouselImages2}/>
+        </div>
         <p className="text-white home-text pageTxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </div>
   );
