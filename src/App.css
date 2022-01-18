@@ -2,16 +2,46 @@
   height: 100vh;
 } */
 
-Nav.Link {
-  font-family: "Arial Narrow"
+
+.large-carousel {
+  max-height: 500px
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Arial Narrow";  
 }
 
 .pageTxt {
   font-family: "Helvetica"
 }
 
+.home-red-text {
+  font-family: "Arial Narrow";
+  text-align: center;
+  /* color: rgb(236, 0, 0); */
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.carousel-maxheight {
+  max-height: 600px;
+}
+
+.carousel-margin {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media (max-width: 479px) {
+  body {
+      font-size: 13px;
+  }
+}
+
 .paddingTop {
-  padding-top: 10%
+  padding-top: 76px
 }
 
 .darken-overlay {
@@ -30,8 +60,11 @@ Nav.Link {
 
 .App {
   text-align: center;
+  /* background-color: rgb(27, 0, 0); */
   background-color: black;
-  height: 100%
+  background-image: linear-gradient(black, #181818);
+  height: 100%;
+  margin: 0
 }
 
 .App-logo {

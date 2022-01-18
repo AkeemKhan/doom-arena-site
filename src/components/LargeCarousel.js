@@ -7,7 +7,7 @@ const LargeCarousel = ({carouselData}) => {
     const data = carouselData;
 
     const listItems = data.map((d) => 
-        <Carousel.Item className="bg-black p-2 text-white bg-opacity-50">
+        <Carousel.Item className="p-3 text-white bg-opacity-50 carousel-maxheight">
             <div className="darken-overlay">
                 <img
                 className="d-block w-100 "
@@ -22,12 +22,10 @@ const LargeCarousel = ({carouselData}) => {
         </Carousel.Item>
     );
 
-
     return (
         <Carousel>
             {listItems}
         </Carousel>
-
     )
 }
 
