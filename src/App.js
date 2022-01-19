@@ -70,19 +70,27 @@ function App() {
 
 
   return (
-    <div className="App" id="THISDIV">
+    <div className="App">
       <Header/>
       <div className="paddingTop">
       </div>
-        <h3 className="home-red-text">Are you skilled enough to face the dreaded arenas?...</h3>
+        <h3 className="text-white home-header-top">Are you skilled enough to face the dreaded arenas?...</h3>
+        <p className="text-white home-intro font-text">Test your mettle in the Arena style horde maps made for GZDoom, compatible with various gameplay mods...</p>
+        
         <div className="carousel-div">
             <LargeCarousel className="large-carousel" carouselData={carouselImages1}/>
         </div>
-        <p className="text-white home-text pageTxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <h3 className="text-white home-header-top">Fight the hordes of randomly spawning enemies</h3>
+        <p className="text-white home-intro font-text">Enemies spawn everywhere. Leave it for too long and you will be overwhelmed...</p>
+        
         <div className="carousel-div">
             <LargeCarousel className="large-carousel" carouselData={carouselImages2}/>
         </div>
-        <p className="text-white home-text pageTxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        
+        <h3 className="text-white home-header-top">Choose your difficulty tier</h3>
+        <p className="text-white home-intro font-text">The harder the tier, the greater the satisfaction...</p>
+        
     </div>
   );
 }

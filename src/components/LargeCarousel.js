@@ -10,7 +10,7 @@ const LargeCarousel = ({carouselData}) => {
         <Carousel.Item className="p-3 text-white bg-opacity-50 carousel-maxheight">
             <div className="darken-overlay">
                 <img
-                className="d-block w-100 "
+                className="d-block w-100"
                 src={d.link}
                 alt={d.h3}
                 />

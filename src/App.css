@@ -18,18 +18,14 @@ html {
   font-family: "Helvetica"
 }
 
-.home-red-text {
+.home-header-top {
   font-family: "Arial Narrow";
-  text-align: center;
-  /* color: rgb(236, 0, 0); */
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  position: relative;
+  padding-top: 30px;  
 }
 
 .carousel-div {
   /* background-color: black; */
+  /* background-image: linear-gradient(black, #181818, black); */
 }
 
 .carousel-maxheight {
@@ -37,17 +33,10 @@ html {
   
 }
 
-.carousel-margin {
-  margin-left: 10%;
-  margin-right: 10%;
-
-}
-
 @media (max-width: 479px) {
   body {
       font-size: 13px;
-  }
-  
+  }  
 }
 
 .paddingTop {
@@ -59,6 +48,11 @@ html {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   filter: brightness(50%);
+}
+
+.home-intro {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .home-text {
@@ -82,11 +76,20 @@ html {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+
+@media screen and (min-width: 1200px) {
+  .carousel-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
