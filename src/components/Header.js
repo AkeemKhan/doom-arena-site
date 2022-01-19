@@ -6,7 +6,7 @@ const Header = () => {
         <>
             <Navbar fixed="top" bg="black" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="home">
                         <img
                             src="/images/doom-arena-logo.png"
                             width="112.5"
@@ -17,9 +17,9 @@ const Header = () => {
                     </Navbar.Brand>
                     {/* <Navbar.Brand href="#home">Doom Arena</Navbar.Brand> */}
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Arenas</Nav.Link>
-                        <Nav.Link href="#pricing">About</Nav.Link>
+                        <Nav.Link href="home">Home</Nav.Link>
+                        <Nav.Link href="arenas">Arenas</Nav.Link>
+                        <Nav.Link href="about">About</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
