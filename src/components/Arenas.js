@@ -1,8 +1,11 @@
+import '../App.css';
+
 const Arenas = () => {
     return (
-        <div>
-            Arenas
-        </div>
+        <>
+            <div className="paddingTop"/>
+            <h3 className="text-white home-header-top">Arenas</h3>
+        </>
     )
 }
 

@@ -18,7 +18,9 @@ const Header = () => {
                     {/* <Navbar.Brand href="#home">Doom Arena</Navbar.Brand> */}
                     <Nav className="me-auto">
                         <Nav.Link href="home">Home</Nav.Link>
+                        <Nav.Link href="guide">Guide</Nav.Link>
                         <Nav.Link href="arenas">Arenas</Nav.Link>
+                        <Nav.Link href="download">Download</Nav.Link>
                         <Nav.Link href="about">About</Nav.Link>
                     </Nav>
                 </Container>

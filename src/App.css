@@ -14,6 +14,10 @@ html {
   font-family: "Arial Narrow";  
 }
 
+.button-text {
+  font-family: "Arial Narrow";  
+}
+
 .pageTxt {
   font-family: "Helvetica"
 }
@@ -21,6 +25,10 @@ html {
 .home-header-top {
   font-family: "Arial Narrow";
   padding-top: 30px;  
+}
+
+.home-padding-bottom {  
+  padding-bottom: 30px;  
 }
 
 .carousel-div {
@@ -33,6 +41,11 @@ html {
   
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 479px) {
   body {
       font-size: 13px;
@@ -40,7 +53,11 @@ html {
 }
 
 .paddingTop {
-  padding-top: 76px
+  padding-top: 100px
+}
+
+.header-padding {
+  padding-top: 100px
 }
 
 .darken-overlay {
