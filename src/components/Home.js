@@ -8,8 +8,8 @@ import LargeCarousel from './LargeCarousel';
 const Home = () => {
     const [carouselImages1, setcarouselImages1] = useState([
         {
-            "h3":"Run rampage within a variety of arenas", 
-            "p":"From small to large, to colassal",
+            "h3":"Run rampant within a variety of arenas", 
+            "p":"Enjoy classic or enhanced Doom gameplay within these arenas",
             "link": "/images/arenagate.png"
         },
         {
