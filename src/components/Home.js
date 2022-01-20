@@ -45,7 +45,7 @@ const Home = () => {
     const [carouselImages3, setcarouselImages3] = useState([
         {
             "h3":"Gruellingly unforgiving", 
-            "p":"Balance? You can die at any moment against insurmountable odds",
+            "p":"Balance? You can perish at any given moment against insurmountable odds",
             "link": "/images/Cyberdemon.png"
         },
         {

@@ -31,18 +31,71 @@ html {
   padding-bottom: 30px;  
 }
 
+.padding-generic {
+  padding: 5%;
+}
+
 .carousel-div {
   /* background-color: black; */
   /* background-image: linear-gradient(black, #181818, black); */
 }
 
 .carousel-maxheight {
-  max-height: 600px;
-  
+  max-height: 600px;  
+}
+
+.carousel-selection-maxheight {
+  max-height: 500px;  
+}
+
+.carousel-selection-caption {  
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .responsive {
   width: 100%;
+  height: auto;
+}
+
+.selection-padding {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.selection-item-text-container {
+  background-color: black;
+  width: 100%
+}
+
+.selection-item-text  {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.selection-item-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.table {
+	display: table;
+	width: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  /* width: calc(100% / 3); */
   height: auto;
 }
 
