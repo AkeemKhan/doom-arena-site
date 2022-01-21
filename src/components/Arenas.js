@@ -192,7 +192,7 @@ const Arenas = () => {
         
         <div className="paddingTop">            
             <div className="img-container">
-                <img src="/images/arenastext.png" className="title-image"/>
+                <img src="/images/pagearenastext.png" className="title-image"/>
             </div>
             <div className="arenas-container">
                 {listItems}     

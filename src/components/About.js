@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="paddingTop">            
             <div className="img-container">
-                <img src="/images/abouttext.png" className="title-image"/>
+                <img src="/images/pageabouttext.png" className="title-image"/>
             </div>
         </div>
     )
