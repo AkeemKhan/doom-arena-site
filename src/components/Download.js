@@ -2,10 +2,11 @@ import '../App.css';
 
 const Download = () => {
     return (
-        <>
-            <div className="paddingTop"/>
-            <h3 className="text-white home-header-top">Download and Installation</h3>
-        </>
+        <div className="paddingTop">            
+            <div className="img-container">
+                <img src="/images/installationtext.png" className="title-image"/>
+            </div>
+        </div>
     )
 }
 

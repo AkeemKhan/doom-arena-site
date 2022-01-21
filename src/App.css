@@ -70,6 +70,12 @@ html {
   height: auto;
 }
 
+.title-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 .selection-padding {
   padding-left: 20%;
   padding-right: 20%;
@@ -121,7 +127,7 @@ html {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 
 .home-intro {
@@ -148,6 +154,18 @@ html {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.img-container {
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  float: top;
+}
+
+.arenas-container {
+  float: top;
 }
 
 

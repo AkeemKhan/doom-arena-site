@@ -25,7 +25,7 @@ const Arenas = () => {
         },
         {
             id: "a1m3",
-            title: "Abandoned UAC Outposys",
+            title: "Abandoned UAC Outposts",
             description: "",
             images: [
                 "/images/cliffside.png",
@@ -68,7 +68,9 @@ const Arenas = () => {
             title: "Ruins - Ambush",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/ruinswater.png",
+                "/images/ruinsinterior.png",
+                "/images/ruinssewer.png"
             ]
         },
         {
@@ -76,7 +78,9 @@ const Arenas = () => {
             title: "Chemical Plant",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/chemicalplant.png",
+                "/images/chemlobby.png",
+                "/images/chemstorage.png"
             ]
         },
         {
@@ -84,7 +88,11 @@ const Arenas = () => {
             title: "Glacial Garrisons",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/glacbase.png",
+                "/images/glaccaverns.png",
+                "/images/glacbfg.png",
+                "/images/glacchem.png",
+                "/images/glacyellbase.png",
             ]
         },
         {
@@ -92,7 +100,10 @@ const Arenas = () => {
             title: "ATF Starship - Invasion",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/atfportalhub.png",
+                "/images/atfcommand.png",
+                "/images/atfcore.png",
+                "/images/atfresidential.png"
             ]
         },
         {
@@ -100,7 +111,9 @@ const Arenas = () => {
             title: "Citadel - Colosseum",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/citadelred.png",
+                "/images/citadelcolosseum.png",
+                "/images/citadelredinterior.png"
             ]
         },
         {
@@ -108,7 +121,9 @@ const Arenas = () => {
             title: "Citadel - Blood Throne",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/btmega.png",
+                "/images/bthrone.png",
+                "/images/btele.png"
             ]
         },
         {
@@ -116,7 +131,10 @@ const Arenas = () => {
             title: "Reclaim UAC Base",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/reclaimbase.png",
+                "/images/reclaimbroken.png",
+                "/images/reclaimcardspawn.png",
+                "/images/reclaimdebris.png",
             ]
         },
         {
@@ -124,7 +142,9 @@ const Arenas = () => {
             title: "Metropolis - Streets",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/streetsoverview.png",
+                "/images/streetsarena.png",
+                "/images/streetsresidential.png"
             ]
         },
         {
@@ -169,13 +189,16 @@ const Arenas = () => {
 
     const val = data[0];
     return (
-        <>
-            <div className="paddingTop"/>
-            <h3 className="text-white home-header-top">Arenas</h3>
-            <div className="">
+        
+        <div className="paddingTop">            
+            <div className="img-container">
+                <img src="/images/arenastext.png" className="title-image"/>
+            </div>
+            <div className="arenas-container">
                 {listItems}     
             </div>
-        </>
+        </div>
+        
     )
 }
 
