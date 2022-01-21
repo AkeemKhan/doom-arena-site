@@ -45,7 +45,7 @@ const Arenas = () => {
         },
         {
             id: "a1m5",
-            title: "UAC Headquarters",
+            title: "UAC Base",
             description: "",
             images: [
                 "/images/baseroom.png",
@@ -157,7 +157,7 @@ const Arenas = () => {
         },
         {
             id: "a3m4",
-            title: "Metropolis - Grand Gate",
+            title: "Metropolis - Military Base",
             description: "",
             images: [
                 "/images/doom-arena-logo.png",
