@@ -8,7 +8,7 @@ const ArenaSelection = ({data}) => {
     const title = data.title;
     const description = data.description;
     const listItems = images.map((d) => 
-        <Carousel.Item className="carousel-selection-maxheight" >
+        <Carousel.Item className="carousel-maxheight" >
             <img
             className="d-block w-100 img-fluid"
             src={d}
@@ -21,7 +21,7 @@ const ArenaSelection = ({data}) => {
 
     return (
         <>
-            <Carousel fade indicators={false} controls={false} interval={2000}>
+            <Carousel className="carousel-margin" fade indicators={false} controls={false} interval={2000}>
                 {listItems}
             </Carousel>
         </>

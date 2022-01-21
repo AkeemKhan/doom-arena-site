@@ -2,7 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from "./components/Header"
 import LargeCarousel from './components/LargeCarousel';
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 
 import Home from "./components/Home";
@@ -12,6 +13,11 @@ import Download from "./components/Download";
 import Guide from "./components/Guide";
 
 function App() {
+
+    useEffect(() => {
+        document.title = "Doom Arena";
+      }, [])
+
   return (
       <Router>        
         <div className="App">

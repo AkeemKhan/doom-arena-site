@@ -4,6 +4,7 @@
 
 html {
   background-color: black;
+  /* font-family: "Arial Narrow", sans-serif; */
 }    
 
 .large-carousel {
@@ -32,7 +33,7 @@ html {
 }
 
 .padding-generic {
-  padding: 5%;
+  padding-bottom: 5%;
 }
 
 .carousel-div {
@@ -45,7 +46,7 @@ html {
 }
 
 .carousel-selection-maxheight {
-  max-height: 500px;  
+  /* max-height: 500px;   */
 }
 
 .carousel-selection-caption {  
@@ -152,7 +153,6 @@ html {
     margin-left: 10%;
     margin-right: 10%;
   }
-  
 }
 
 /* @media (prefers-reduced-motion: no-preference) {

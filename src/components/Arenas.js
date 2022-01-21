@@ -161,11 +161,6 @@ const Arenas = () => {
         },
     ];
 
-//     Glacial Garrisons
-// ATF Starship - Invasion
-// Citadel - Colosseum
-// Citadel - Blood Throne
-
     const listItems = data.map((d) => 
         <div className="padding-generic">
             <ArenaSelection data={d}/>
@@ -177,7 +172,7 @@ const Arenas = () => {
         <>
             <div className="paddingTop"/>
             <h3 className="text-white home-header-top">Arenas</h3>
-            <div className="selection-padding">
+            <div className="">
                 {listItems}     
             </div>
         </>
