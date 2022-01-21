@@ -21,7 +21,7 @@ const ArenaSelection = ({data}) => {
 
     return (
         <>
-            <Carousel className="carousel-margin" fade indicators={false} controls={false} interval={2000}>
+            <Carousel className="carousel-selection-margin" fade indicators={false} controls={false} interval={2000}>
                 {listItems}
             </Carousel>
         </>
