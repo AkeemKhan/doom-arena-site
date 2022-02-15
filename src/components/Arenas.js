@@ -152,15 +152,21 @@ const Arenas = () => {
             title: "Metropolis - Highrise",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/rooftops2.png",
+                "/images/rooftops1.png",
+                "/images/rooftops3.png",
+                "/images/rooftops4.png",
             ]
         },
         {
             id: "a3m4",
-            title: "Metropolis - Military Base",
+            title: "Caverns",
             description: "",
             images: [
-                "/images/doom-arena-logo.png",
+                "/images/caverns_inside.png",
+                "/images/caverns_arena.png",
+                "/images/caverns_blue.png",
+                "/images/caverns_outside.png",
             ]
         },
         {
